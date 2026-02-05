@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',  # Farklı domainlerden gelen istekleri yönetmek için CORS desteği sağlar.
     'rest_framework_simplejwt.token_blacklist',
     'django_filters',
-    'words',
+    'words.apps.WordsConfig',
 ]
 
 MIDDLEWARE = [
