@@ -21,4 +21,9 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('accounts.urls')),
     path('api/', include('words.urls')),
+<<<<<<< HEAD
+=======
+
+    path('api/questions/', include('questions.urls')),
+>>>>>>> 2b54c90 (Added questions api)
 ]

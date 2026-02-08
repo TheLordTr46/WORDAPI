@@ -15,7 +15,10 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -31,8 +34,11 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
 ]
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Application definition
 
 INSTALLED_APPS = [
@@ -50,11 +56,19 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'django_filters',
     'words.apps.WordsConfig',
+<<<<<<< HEAD
+=======
+    'questions',
+>>>>>>> 2b54c90 (Added questions api)
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+<<<<<<< HEAD
     "whitenoise.middleware.WhiteNoiseMiddleware", 
+=======
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+>>>>>>> 2b54c90 (Added questions api)
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -83,7 +97,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "wordapi.wsgi.application"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
@@ -94,7 +111,10 @@ DATABASES = {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
@@ -113,7 +133,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
@@ -125,7 +148,10 @@ USE_I18N = True
 
 USE_TZ = True
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2b54c90 (Added questions api)
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
@@ -133,7 +159,11 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+<<<<<<< HEAD
 
+=======
+TEMPLATES[0]["DIRS"] = [BASE_DIR / "templates"]
+>>>>>>> 2b54c90 (Added questions api)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
